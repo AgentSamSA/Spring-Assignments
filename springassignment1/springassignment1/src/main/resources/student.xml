@@ -1,0 +1,13 @@
+<beans>
+    <bean id="student" class="springassignment1.Student">
+        <constructor-arg index="0" ref="address"/>
+        <constructor-arg index="1" value="1234"/>
+        <constructor-arg index="2" value="Billy"/>
+    </bean>
+    <bean id="address" class="springassignment1.Address">
+        <constructor-arg index="0" value="Manhattan"/>
+        <constructor-arg index="1" value="New York"/>
+        <constructor-arg index="2" value="United States"/>
+        <constructor-arg index="3" value="10060"/>
+    </bean>
+</beans>

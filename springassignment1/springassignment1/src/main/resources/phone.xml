@@ -1,0 +1,5 @@
+<beans>
+    <bean id="phone" class="springassignment1.Phone">
+        <constructor-arg index="0" value="1235556789"/>
+    </bean>
+</beans>
